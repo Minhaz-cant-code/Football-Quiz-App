@@ -7,7 +7,7 @@ public class FootballQuizApp extends JFrame implements ActionListener {
     String[] questions = {
         "Who won the 2022 FIFA World Cup?",
         "Which country has won the most World Cups?",
-        "Which player has the most Ballon d'Or awards?",
+        "Which player has the most UCLs?",
         "Which club has won the most UEFA Champions League titles?",
         "Who is known as 'El Fenomeno'?",
         "Who scored the 'Hand of God' goal?",
@@ -20,7 +20,7 @@ public class FootballQuizApp extends JFrame implements ActionListener {
     String[][] options = {
         {"Brazil", "France", "Argentina", "Germany"},
         {"Brazil", "Germany", "Italy", "Argentina"},
-        {"Messi", "Ronaldo", "Zidane", "Ronaldinho"},
+        {"Ronaldo", "Messi", "Zidane", "Ronaldinho"},
         {"AC Milan", "Liverpool", "Real Madrid", "Barcelona"},
         {"Ronaldinho", "Ronaldo Nazário", "Cristiano Ronaldo", "Messi"},
         {"Pele", "Messi", "Maradona", "Klose"},
